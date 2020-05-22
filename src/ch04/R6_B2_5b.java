@@ -2,7 +2,7 @@ package ch04;
 
 import java.util.Scanner;
 
-public class Kelas_b {
+public class R6_B2_5b {
     public static void main(String[] args) {
         int[] angka = {82, 12, 41, 38, 19, 26, 9, 48, 20, 55, 8, 32, 3};
         Scanner x = new Scanner(System.in);

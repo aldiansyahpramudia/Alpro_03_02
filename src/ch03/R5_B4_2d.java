@@ -2,7 +2,7 @@ package ch03;
 
 import java.util.Scanner;
 
-public class Kelas4 {
+public class R5_B4_2d {
     public static void main(String[] args){
         Scanner x = new Scanner(System.in);
 

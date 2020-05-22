@@ -1,8 +1,8 @@
-package ch01;
+package ch05;
 
 import java.util.Scanner;
 
-public class Kelas_1 {
+public class R7_B2_1c {
     public static void main(String []args){
         Scanner x = new Scanner(System.in);
         

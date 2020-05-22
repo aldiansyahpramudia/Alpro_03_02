@@ -1,10 +1,13 @@
 package ch04;
 
-public class Kelas_i {
+public class R6_B2_5m {
     public static void main(String []args){
+
         int[] angka = {82, 12, 41, 38, 19, 26, 9, 48, 20, 55, 8, 32, 3};
 
-        System.out.println("Menampilkan selisih angka-angka dengan angka setelahnya di dalam array = ");
+        int hasil = 0;
+
+        System.out.print("Jumlah angka-angka selisih array = ");
 
         for(int i =0; i<angka.length-1; i++){
 
@@ -13,10 +16,11 @@ public class Kelas_i {
             int selisih2 = angka[i]-angka[a];
 
             if(angka[a]>angka[i]){
-                System.out.print(selisih1 + " ");
+                hasil+=selisih1;
             }else if(angka[i]>angka[a]){
-                System.out.print(selisih2 + " ");
+                hasil+=selisih2;
             }
         }
+        System.out.println(hasil);
     }
 }
